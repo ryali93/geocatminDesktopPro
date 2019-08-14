@@ -1,0 +1,36 @@
+﻿<ArcGIS defaultAssembly="GeocatminDesktop.dll" defaultNamespace="GeocatminDesktop" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{d042db9f-5bd9-4f79-95ff-cd9399e3fa2a}" version="1.0" desktopVersion="2.3.15769">
+    <Name>GeocatminDesktop</Name>
+    <Description>GeocatminDesktop description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>Roy Yali</Author>
+    <Company>INGEMMET</Company>
+    <Date>7/31/2019 4:09:30 PM, 2019</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="GeocatminDesktop_Module" className="Module1" autoLoad="false" caption="Module1">
+      <tabs>
+      </tabs>
+      <groups>
+        <group id="GeocatminDesktop_Group1" caption="Group 1" appearsOnAddInTab="true" keytip="G1">
+          <button refID="GeocatminDesktop_ListContentDockpane_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <button id="GeocatminDesktop_ListContentDockpane_ShowButton" caption="GEOCATMIN Desktop" className="GeocatminDesktop_ListContentDockpane_ShowButton" loadOnClick="true" smallImage="DarkImages\PICOTA16.png" largeImage="DarkImages\PICOTA32.png">
+          <tooltip heading="Show Dockpane">
+            Shows the Dockpane that shows a listing of GDB of GEOCATMIN<disabledText />
+          </tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="GeocatminDesktop_ListContentDockpane" caption="GEOCATMIN Desktop" className="ListContentDockpaneViewModel" dock="group" dockWith="esri_core_contentsDockPane">
+          <content className="ListContentDockpaneView" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>

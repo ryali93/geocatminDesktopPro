@@ -1,0 +1,10 @@
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\ListContentDockpane.baml
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\ListContentDockpane.g.cs
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop_MarkupCompile.cache
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop.g.resources
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop.csproj.CoreCompileInputs.cache
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\bin\Debug\GeocatminDesktop.dll
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\bin\Debug\GeocatminDesktop.pdb
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop.dll
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop.pdb
+C:\Users\autonomoosi02\source\repos\GeocatminDesktop\GeocatminDesktop\obj\Debug\GeocatminDesktop.csprojAssemblyReference.cache
